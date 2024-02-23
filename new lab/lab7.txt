@@ -1,0 +1,8 @@
+create table studenttable(rollno numeric(1), gpa numeric(2,1));
+insert into studenttable values(1,5.8);
+insert into studenttable values(2,6.5);
+insert into studenttable values(3,3.4);
+insert into studenttable values(4,7.8);
+insert into studenttable values(5,9.5);
+
+alter table studenttable add lettergrade varchar2(2);
